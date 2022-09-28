@@ -4,6 +4,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin:0;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -17,15 +18,16 @@ ul {
     background-color: #1F2937;
     color:white;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header .logo {
     font-weight: bold;
     font-size: 24px;
     color:#F9FAF8;
-   
 }
 
 .right-links {
@@ -35,3 +37,44 @@ ul {
     color:#E5E7EB
 }
 
+.first {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom:100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap:40px;
+}
+
+.first .left {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    flex: 0 1 auto;
+}
+
+.first .left button {
+    background-color: #2596be;
+    color:white;
+    border-radius: 15px;
+    width:fit-content;
+    padding:7px;
+}
+
+.first .left #title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first .right {
+    display:flex;
+}
+
+.first .right img {
+    height:auto;
+    width:500px;
+    flex: 0 1 auto;
+}
